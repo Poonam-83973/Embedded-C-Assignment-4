@@ -41,10 +41,7 @@ int calculator(int num1, char opr, int num2)
 					result = num1 * num2;
 					break;
 		case '/':
-					if(num2 != 0)
-						result = num1 / num2;
-					else
-						printf("Denominator is zero error.\n");
+					result = num1 / num2;
 					break;
 		default :
 					printf("Invalid operation\n");
